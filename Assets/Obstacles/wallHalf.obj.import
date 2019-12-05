@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallHalf.obj-4e4c0512f0c53a7e2cf483421b68405a.mesh"
+
+[deps]
+
+files=[ "res://.import/wallHalf.obj-4e4c0512f0c53a7e2cf483421b68405a.mesh" ]
+
+source_file="res://Assets/Obstacles/wallHalf.obj"
+dest_files=[ "res://.import/wallHalf.obj-4e4c0512f0c53a7e2cf483421b68405a.mesh", "res://.import/wallHalf.obj-4e4c0512f0c53a7e2cf483421b68405a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

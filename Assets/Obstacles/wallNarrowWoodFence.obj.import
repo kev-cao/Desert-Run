@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallNarrowWoodFence.obj-61f66e84106405c17f1890c2285968bd.mesh"
+
+[deps]
+
+files=[ "res://.import/wallNarrowWoodFence.obj-61f66e84106405c17f1890c2285968bd.mesh" ]
+
+source_file="res://Assets/Obstacles/wallNarrowWoodFence.obj"
+dest_files=[ "res://.import/wallNarrowWoodFence.obj-61f66e84106405c17f1890c2285968bd.mesh", "res://.import/wallNarrowWoodFence.obj-61f66e84106405c17f1890c2285968bd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

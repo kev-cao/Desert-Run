@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stairsStone.obj-f332531bdcc083c53defb785807ca032.mesh"
+
+[deps]
+
+files=[ "res://.import/stairsStone.obj-f332531bdcc083c53defb785807ca032.mesh" ]
+
+source_file="res://Assets/Obstacles/stairsStone.obj"
+dest_files=[ "res://.import/stairsStone.obj-f332531bdcc083c53defb785807ca032.mesh", "res://.import/stairsStone.obj-f332531bdcc083c53defb785807ca032.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

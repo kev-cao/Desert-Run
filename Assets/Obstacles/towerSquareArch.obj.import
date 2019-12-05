@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/towerSquareArch.obj-2fedea3442638f926f93762491113d58.mesh"
+
+[deps]
+
+files=[ "res://.import/towerSquareArch.obj-2fedea3442638f926f93762491113d58.mesh" ]
+
+source_file="res://Assets/Obstacles/towerSquareArch.obj"
+dest_files=[ "res://.import/towerSquareArch.obj-2fedea3442638f926f93762491113d58.mesh", "res://.import/towerSquareArch.obj-2fedea3442638f926f93762491113d58.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

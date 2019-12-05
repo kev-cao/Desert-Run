@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallCornerHalfTower.obj-f539b7e02779deb61750397b58379982.mesh"
+
+[deps]
+
+files=[ "res://.import/wallCornerHalfTower.obj-f539b7e02779deb61750397b58379982.mesh" ]
+
+source_file="res://Assets/Obstacles/wallCornerHalfTower.obj"
+dest_files=[ "res://.import/wallCornerHalfTower.obj-f539b7e02779deb61750397b58379982.mesh", "res://.import/wallCornerHalfTower.obj-f539b7e02779deb61750397b58379982.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

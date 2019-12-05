@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flagWhite.obj-4c04f3a8aaa388822133f4ac7bf12ac6.mesh"
+
+[deps]
+
+files=[ "res://.import/flagWhite.obj-4c04f3a8aaa388822133f4ac7bf12ac6.mesh" ]
+
+source_file="res://Assets/Obstacles/flagWhite.obj"
+dest_files=[ "res://.import/flagWhite.obj-4c04f3a8aaa388822133f4ac7bf12ac6.mesh", "res://.import/flagWhite.obj-4c04f3a8aaa388822133f4ac7bf12ac6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

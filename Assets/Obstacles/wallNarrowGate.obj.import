@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallNarrowGate.obj-8ba7d5cd5fb80d80d93e59c1dc93f642.mesh"
+
+[deps]
+
+files=[ "res://.import/wallNarrowGate.obj-8ba7d5cd5fb80d80d93e59c1dc93f642.mesh" ]
+
+source_file="res://Assets/Obstacles/wallNarrowGate.obj"
+dest_files=[ "res://.import/wallNarrowGate.obj-8ba7d5cd5fb80d80d93e59c1dc93f642.mesh", "res://.import/wallNarrowGate.obj-8ba7d5cd5fb80d80d93e59c1dc93f642.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

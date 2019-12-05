@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallDoor.obj-6f9430eb66ad288a2f4d29c707f696ba.mesh"
+
+[deps]
+
+files=[ "res://.import/wallDoor.obj-6f9430eb66ad288a2f4d29c707f696ba.mesh" ]
+
+source_file="res://Assets/Obstacles/wallDoor.obj"
+dest_files=[ "res://.import/wallDoor.obj-6f9430eb66ad288a2f4d29c707f696ba.mesh", "res://.import/wallDoor.obj-6f9430eb66ad288a2f4d29c707f696ba.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

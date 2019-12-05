@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/towerSquareTopColor.obj-abc91d6f72285abaccde8e92e7eec434.mesh"
+
+[deps]
+
+files=[ "res://.import/towerSquareTopColor.obj-abc91d6f72285abaccde8e92e7eec434.mesh" ]
+
+source_file="res://Assets/Obstacles/towerSquareTopColor.obj"
+dest_files=[ "res://.import/towerSquareTopColor.obj-abc91d6f72285abaccde8e92e7eec434.mesh", "res://.import/towerSquareTopColor.obj-abc91d6f72285abaccde8e92e7eec434.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flagBannerShort.obj-50f7bcfcbff48498c464334a60da7916.mesh"
+
+[deps]
+
+files=[ "res://.import/flagBannerShort.obj-50f7bcfcbff48498c464334a60da7916.mesh" ]
+
+source_file="res://Assets/Obstacles/flagBannerShort.obj"
+dest_files=[ "res://.import/flagBannerShort.obj-50f7bcfcbff48498c464334a60da7916.mesh", "res://.import/flagBannerShort.obj-50f7bcfcbff48498c464334a60da7916.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

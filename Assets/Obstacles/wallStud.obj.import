@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallStud.obj-b5c55492c290be05db876dd77e4218ca.mesh"
+
+[deps]
+
+files=[ "res://.import/wallStud.obj-b5c55492c290be05db876dd77e4218ca.mesh" ]
+
+source_file="res://Assets/Obstacles/wallStud.obj"
+dest_files=[ "res://.import/wallStud.obj-b5c55492c290be05db876dd77e4218ca.mesh", "res://.import/wallStud.obj-b5c55492c290be05db876dd77e4218ca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
