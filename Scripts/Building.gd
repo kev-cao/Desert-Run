@@ -10,9 +10,8 @@ func _ready():
 	move_lock_z = true
 	pass # Replace with function body.
 
-func _process(delta):
-	if translation.x < -60:
-		self.queue_free()
 		
 func _physics_process(delta):
 	move_and_slide(Vector3(-speed, 0, 0))
+	if translation.x < -60:
+		self.queue_free()

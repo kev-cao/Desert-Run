@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Scripts/World.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Character.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Wall.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/BuildingSpawner.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scenes/GUI.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scripts/SideWalls.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Wall.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/BuildingSpawner.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/GUI.tscn" type="PackedScene" id=6]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.937255, 0.803922, 0.521569, 1 )
@@ -36,46 +37,53 @@ shadow_enabled = true
 [node name="Character" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0.931, -0.175 )
 
-[node name="Side Walls" type="Spatial" parent="."]
+[node name="Side Walls" type="KinematicBody" parent="."]
 editor/display_folded = true
+script = ExtResource( 3 )
 
-[node name="Wall" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -30, 0, 7.5 )
 
-[node name="Wall2" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall2" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -20, 0, 7.5 )
 
-[node name="Wall3" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall3" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -10, 0, 7.5 )
 
-[node name="Wall4" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall4" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0, 0, 7.5 )
 
-[node name="Wall5" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall5" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 10, 0, 7.5 )
 
-[node name="Wall6" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall6" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 20, 0, 7.5 )
 
-[node name="Wall7" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall14" parent="Side Walls" instance=ExtResource( 4 )]
+transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 30, 0, 7.5 )
+
+[node name="Wall7" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 20, 0, -10 )
 
-[node name="Wall8" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall13" parent="Side Walls" instance=ExtResource( 4 )]
+transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 30, 0, -10 )
+
+[node name="Wall8" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 10, 0, -10 )
 
-[node name="Wall9" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall9" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0, 0, -10 )
 
-[node name="Wall10" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall10" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -10, 0, -10 )
 
-[node name="Wall11" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall11" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -20, 0, -10 )
 
-[node name="Wall12" parent="Side Walls" instance=ExtResource( 3 )]
+[node name="Wall12" parent="Side Walls" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -30, 0, -10 )
 
-[node name="BuildingSpawner" parent="." instance=ExtResource( 4 )]
+[node name="BuildingSpawner" parent="." instance=ExtResource( 5 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0 )
 
-[node name="Control" parent="." instance=ExtResource( 5 )]
+[node name="Control" parent="." instance=ExtResource( 6 )]
