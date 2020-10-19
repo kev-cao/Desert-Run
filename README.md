@@ -10,4 +10,4 @@ After taking a course in Game Technology, I wanted to try my hand at a 3D game. 
 There is a `.exe` file located in the root directory. A `zip` file is also located there for MacOS.
 
 ## Preview
-![Preview](https://i.imgur.com/GKeWwNX.gif)
+![Preview](https://i.imgur.com/DAgN6sL.gif)
