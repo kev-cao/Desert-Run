@@ -15,4 +15,5 @@ dest_files=[ "res://.import/wallCorner.obj-9ffe3789c3eea8f9593da73bf159bce2.mesh
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

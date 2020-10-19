@@ -15,4 +15,5 @@ dest_files=[ "res://.import/wallHalf.obj-4e4c0512f0c53a7e2cf483421b68405a.mesh",
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

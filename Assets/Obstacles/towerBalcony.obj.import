@@ -15,4 +15,5 @@ dest_files=[ "res://.import/towerBalcony.obj-9c6506b4880439e92f743c7b275d2055.me
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

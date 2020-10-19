@@ -15,4 +15,5 @@ dest_files=[ "res://.import/towerSquareRoof.obj-0caf9f82f662e036ddcea2cb6303b540
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

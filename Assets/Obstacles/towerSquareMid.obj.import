@@ -15,4 +15,5 @@ dest_files=[ "res://.import/towerSquareMid.obj-a200f8ec90cad5faa76ca38742d60c8e.
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

@@ -15,4 +15,5 @@ dest_files=[ "res://.import/wallNarrowWoodFence.obj-61f66e84106405c17f1890c22859
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

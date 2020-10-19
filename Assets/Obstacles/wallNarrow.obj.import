@@ -15,4 +15,5 @@ dest_files=[ "res://.import/wallNarrow.obj-da7a351cb1d6dd3d83a60a4a8a416143.mesh
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

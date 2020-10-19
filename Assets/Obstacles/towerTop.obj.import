@@ -15,4 +15,5 @@ dest_files=[ "res://.import/towerTop.obj-f0dc2954bd946449a53da2ea34b33333.mesh",
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

@@ -15,4 +15,5 @@ dest_files=[ "res://.import/wallNarrowStairs.obj-4f0c632a417ea207c793f96909d5b58
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true
